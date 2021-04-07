@@ -1,8 +1,28 @@
 @import "./utils/variables";
-@import "./base/common";
 @import "./utils/vissually-hidden";
+
+
+@import "./base/common";
 @import "./base/container";
+
+
 @import "./components/modal-btn";
 @import "./components/logo";
-@import "./components/header";
 @import "./components/nav";
+@import "./components/social-links";
+@import "./components/logo-footer";
+@import "./components/backdrop";
+@import "./components/modal-window";
+@import "./components/modal-close";
+@import "./components/modal-form";
+
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/features";
+@import "./layout/what-we-do";
+@import "./layout/our-team";
+@import "./layout/clients";
+@import "./layout/footer";
+@import "./layout/filter-btn-portfolio";
+@import "./layout/portfolio-cards";

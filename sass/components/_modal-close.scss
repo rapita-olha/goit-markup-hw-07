@@ -1,0 +1,25 @@
+.modal-close {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    background-color: var(--white-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    fill: var(--logo-color);
+    border-radius: 50%;
+    cursor: pointer;
+}
+  
+.modal-svg {
+    fill:var(--logo-color);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+  
+.modal-close:hover .modal-svg,
+.modal-close:focus .modal-svg {
+    fill: var(--accent-color);
+}

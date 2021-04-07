@@ -1,0 +1,47 @@
+.img-what-we-do {
+    display: flex;
+}
+
+.what-we-do {
+    display: flex;
+    padding-bottom: 94px;
+    padding-top: 47px;
+    background-color: var(--white-text-back-color);
+}
+
+.title-chapter {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.about-list-item {
+    position: relative;
+    margin-right: 30px;
+}
+
+.img-what-we-do:nth-child(3) {
+    margin-right: 0;
+}
+
+.image-cover {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(47, 48, 58, 0.8);
+    color: var(--white-text-back-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}

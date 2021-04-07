@@ -1,0 +1,13 @@
+.header {
+    border-bottom: 1px solid var(--back-team-color);
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
