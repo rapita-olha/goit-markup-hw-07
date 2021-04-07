@@ -89,14 +89,14 @@ button {
     overflow: hidden;
 }*/
 
-.container {
+/*.container {
     width: 1200px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-}
+}*/
 
-.logo {
+/*.logo {
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
@@ -116,9 +116,9 @@ button {
 
 .logo-web-footer {
     color: var(--white-text-back-color);
-}
+}*/
 
-.nav-link {
+/*.nav-link {
     position: relative;
     display: block;
     font-weight: 500;
@@ -166,7 +166,7 @@ button {
     background-size: auto;
     border-radius: 2px;
     transform: translateY(1px)
-}
+}*/
 
 /* .Contacts section */
 
@@ -247,7 +247,8 @@ button {
 
     
 }
-.modal-btn {
+
+/*.modal-btn {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -273,7 +274,7 @@ button {
     background-color: var(--background-btn-hover);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-}
+}*/
 
 .hero-title {
     display: block;
