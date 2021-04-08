@@ -1,4 +1,19 @@
-.nav-link {
+.nav-list {
+    @extend %flex-container;
+    align-items: center;
+    
+}
+
+.nav-list__nav-list-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+
+.link.nav-list__nav-link.current {
+    color: var(--accent-color) ;
+}
+
+.nav-list__nav-link {
     position: relative;
     display: block;
     font-weight: 500;
@@ -16,22 +31,6 @@
     }
 }
 
-.nav-list {
-    display: flex;
-    align-items: center;
-    
-}
-
-.nav-list-item:not(:last-child) {
-    margin-right: 50px;
-}
-
-
-.link.nav-link.current {
-    color: var(--accent-color) ;
-}
-
-
 .current::after {
     position: absolute;
     content: "";
@@ -47,12 +46,12 @@
     transform: translateY(1px)
 }
 
-.contacts-list-item:not(:last-child) {
+.contact__contacts-list-item:not(:last-child) {
     margin-right: 50px;
 }
 
-.list-contact {
-    display: flex;
+.contact {
+    @extend %flex-container;
     align-items: center;
     margin-left: auto;
 }
@@ -64,8 +63,8 @@
     fill: currentColor;
 }
 
-.mail-link {
-    display: flex;
+.contact__mail-link {
+    @extend %flex-container;
     align-items: center;
     font-weight: 500;
     font-size: 14px;
@@ -84,8 +83,8 @@
 }
 
 
-.tel-link {
-    display: flex;
+.contact__tel-link {
+    @extend %flex-container;
     align-items: center;
     font-weight: 500;
     font-size: 14px;

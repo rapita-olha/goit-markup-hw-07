@@ -1,14 +1,8 @@
-.partners-list {
-    display: flex;
-    justify-content: space-between;
-}
-
 .partners {
-    padding-bottom: 94px;
-    padding-top: 94px;
+    @include paddings(94px, 94px);
 }
 
-.title-partners {
+.partners__title-partners {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -17,8 +11,14 @@
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
-.partners-link {
-    display: flex;
+
+.partners__partners-list {
+    @extend %flex-container;
+    justify-content: space-between;
+}
+
+.partners__partners-link {
+    @extend %flex-container;
     justify-content: center;
     align-items: center;
     width: 170px;
@@ -35,7 +35,7 @@
     }
 }
 
-.partner-logo:hover,
-.partner-logo:focus {
+.partners__partner-logo:hover,
+.partners__partner-logo:focus {
     color: var(--accent-color);
 }

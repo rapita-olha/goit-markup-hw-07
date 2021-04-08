@@ -1,52 +1,40 @@
 .features {
-    padding-top: 94px;
-    padding-bottom: 47px;
+    @include paddings(94px, 94px);
 }
 
-.visually-hidden-title {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
 
-.features-item {
-    display: flex;
+
+.features__features-item {
+    @extend %flex-container;
     justify-content: center;
     margin-left: 0px;
     margin-top: 0px;
     padding: 0px;
     
-    & .title-f {
+    & .features__title-f {
     width: 270px;
     justify-items: center;
     margin-left: 30px;
     }
 }
 
-.thumb {
+.features__thumb {
     height: 120px;
     background-color: #f5f4fa;
     border-radius: 4px;
     margin-bottom: 30px;
-    display: flex;
+    @extend %flex-container;
     justify-content: center;
     align-items: center;
     border-radius: 4px;
 }
 
-.thumb-icon {
+.features__thumb-icon {
     width: 70px;
     height: 70px;
 }
 
-.title-features {
+.features__title-features {
     margin-top: 0px;
     margin-bottom: 10px;
     font-weight: 700;
@@ -56,7 +44,7 @@
     letter-spacing: 0.03em;
 }
 
-.features-dis {
+.features__features-dis {
     display: inline-block;
     margin-top: 0px;
     margin-bottom: 0px;

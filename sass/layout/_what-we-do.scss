@@ -1,15 +1,15 @@
-.img-what-we-do {
-    display: flex;
+.what-we-do__img-what-we-do {
+    @extend %flex-container;
 }
 
 .what-we-do {
-    display: flex;
+    @extend %flex-container;
     padding-bottom: 94px;
     padding-top: 47px;
     background-color: var(--white-text-back-color);
 }
 
-.title-chapter {
+.what-we-do__title-chapter {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -19,20 +19,20 @@
     color: var(--title-text-color);
 }
 
-.about-list-item {
+.what-we-do__about-list-item {
     position: relative;
     margin-right: 30px;
 }
 
-.img-what-we-do:nth-child(3) {
+.what-we-do__img-what-we-do:nth-child(3) {
     margin-right: 0;
 }
 
-.image-cover {
+.what-we-do__image-cover {
     position: absolute;
     bottom: 0;
     left: 0;
-    display: flex;
+    @extend %flex-container;
     align-items: center;
     justify-content: center;
     height: 70px;

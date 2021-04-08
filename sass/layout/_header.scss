@@ -3,11 +3,11 @@
 }
 
 .header .container {
-    display: flex;
+    @extend %flex-container;
     align-items: center;
 }
 
 .header-nav {
-    display: flex;
+    @extend %flex-container;
     align-items: center;
 }

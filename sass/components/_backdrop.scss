@@ -17,6 +17,6 @@
     pointer-events: none;
 }
   
-.backdrop.is-hidden .modal-window {
+.backdrop.is-hidden .modal-window__modal-window {
     transform: translate(-50%, -50%) scale(0.9);
 }

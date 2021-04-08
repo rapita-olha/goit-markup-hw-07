@@ -9,7 +9,7 @@
 }
   
 .modal-form {
-    display: flex;
+    @extend %flex-container;
     flex-direction: column;
 }
   
@@ -75,15 +75,14 @@
     }
 }
   
-
-  
+ 
 .modal-form-comment:focus {
     border-color: var(--accent-color);
     outline: none;
 }
   
 .modal-form-check-desc {
-    display: flex;
+    @extend %flex-container;
     align-items: center;
     font-size: 14px;
     margin-left: 12px;

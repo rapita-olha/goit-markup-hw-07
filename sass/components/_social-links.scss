@@ -1,11 +1,11 @@
-.social-list {
-    display: flex;
+.team__social-list {
+    @extend %flex-container;
     align-items: center;
     justify-content: space-between;
 }
   
-.social-links {
-    display: flex;
+.team__social-links {
+    @extend %flex-container;
     align-items: center;
     justify-content: center;
     width: 44px;
@@ -25,8 +25,8 @@
   
 
   
-.social-svg:hover,
-.social-svg:focus {
+.team__social-svg:hover,
+.team__social-svg:focus {
     fill: var(--white-text-back-color);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
