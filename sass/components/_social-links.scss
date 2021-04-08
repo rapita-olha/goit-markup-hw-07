@@ -14,14 +14,15 @@
     fill: var(--partner-icon);
     background-color: transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+        fill: var(--white-text-back-color);
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
   
-.social-links:hover,
-.social-links:focus {
-    background-color: var(--accent-color);
-    fill: var(--white-text-back-color);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
   
 .social-svg:hover,

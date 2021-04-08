@@ -26,21 +26,16 @@
     border-radius: 4px;
     border: 1px solid var(--partner-icon);
     fill: var(--partner-icon);
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        fill: var(--accent-color);
+        border: 1px solid var(--accent-color);
+    }
 }
 
 .partner-logo:hover,
 .partner-logo:focus {
     color: var(--accent-color);
-}
-
-
-.partners-link:hover,
-.partners-link:focus {
-    border: 1px solid var(--accent-color);
-}
-
-.partners-link:hover,
-.partners-link:focus {
-    fill: var(--accent-color);
 }

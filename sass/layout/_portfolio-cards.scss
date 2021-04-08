@@ -1,3 +1,67 @@
+.portfolio-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.filter-btn-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+.navigation-btn {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 6px 22px 6px 22px;
+    background: var(--accent-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    cursor: pointer;
+    color: var(--title-text-color);
+    background-color: var(--back-team-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+        color: var(--white-text-back-color);
+        cursor: pointer;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
+}
+
+
+.navigation-btn-a {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 6px 22px 6px 22px;
+    background: var(--accent-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    cursor: pointer;
+    color: var(--white-text-back-color);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+
+}
+
+.filter-btn-item:hover,
+.filter-btn-item:focus {
+    cursor: pointer;
+    color: var(white-text-back-color);
+    background-color: var(--accent-color);
+}
+
+.filter-btn-item:not(:last-child) {
+    margin-right: 8px;
+}
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
@@ -10,13 +74,14 @@
     margin-left: 30px;
     margin-top: 30px;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+       box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+       1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
 }
-  
-.portfolio-item:hover,
-.portfolio-item:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-      1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+
   
 .cards-hover {
     position: relative;
@@ -42,22 +107,25 @@
       opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
   
+  
+.project-cards-link {
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+        cursor: pointer;
+
+        
+    }
+}
+
+
 .project-cards-link:hover .overlay,
 .project-cards-link:focus .overlay {
     transform: translateY(0%);
     opacity: 1;
-}
-  
-  
-.project-cards-link {
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-  
-.project-cards-link:hover,
-.project-cards-link:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-    cursor: pointer;
 }
   
 .portfolio-desc-card {

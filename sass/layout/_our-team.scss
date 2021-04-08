@@ -5,6 +5,14 @@
     background-color: var(--back-team-color);
     padding-bottom: 94px;
     padding-top: 94px;
+
+    & .list-team-item .team-img {
+        background: var(--secondary-accent-color);
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+        
+    }
 }
 
 .title-team {
@@ -22,14 +30,6 @@
     align-items: center;
     margin-left: -30px;
     margin-top: -30px;
-}
-
-.team .list-team-item .team-img {
-    background: var(--secondary-accent-color);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-    
 }
 
 .list-team-item {
